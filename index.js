@@ -63,14 +63,14 @@ messageEl.textContent = message
 
 
 
-function newCard() {
-    if (isAlive === true && hasBlackJack === false) {
-        let card = getRandomCard()
-        sum += card 
-        cards.push(card)
-        renderGame() 
-    }
-}
+//function newCard() {
+    //if (isAlive === true && hasBlackJack === false) {
+        //let card = getRandomCard()
+        //sum += card 
+        //cards.push(card)
+        //renderGame() 
+    //}
+//}
 
 //for (let i = 0; i > 6; i += 1) {
     //console.log(i)
